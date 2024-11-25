@@ -26,16 +26,17 @@ body {
 }
 
 .subtitle {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #ccc;
 }
 
 .about, .career, .skills, .activities, .future {
     margin: 40px 20px;
     padding: 20px;
-    border: 1px solid #444;
+    border: 3px solid #444;
     border-radius: 10px;
     background-color: #111;
+    text-align: justify;
 }
 
 .about h2, 
@@ -50,8 +51,7 @@ body {
 
 .about p, 
 .career p, 
-.skills ul, 
-.activities ul, 
+.skills ul,  
 .future p {
     font-size: 1em;
     line-height: 1.6;
@@ -60,7 +60,7 @@ body {
 
 .skills ul, .activities ul {
     list-style-type: disc;
-    margin-left: 20px;
+     text-align: center
 }
 
 .skills li, .activities li {
